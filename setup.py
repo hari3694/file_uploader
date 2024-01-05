@@ -7,7 +7,7 @@ setup(
     name="file_uploader",
     version="0.0.10",
     description="A package for uploading files to S3 and GCS",
-    package_dir={"": "app"},
+    package_dir={"": "file_uploader"},
     packages=find_packages(where="file_uploader"),
     long_description=long_description,
     long_description_content_type="text/markdown",
